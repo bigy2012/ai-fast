@@ -1,0 +1,53 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="40" cy="40" r="36" fill="url(#logo-gradient)" stroke="white" stroke-width="2"/>
+  
+  <!-- AI Brain Symbol -->
+  <g transform="translate(40,30)">
+    <!-- Main brain shape -->
+    <path d="M-12,-8 Q-16,-12 -12,-16 Q-8,-18 -4,-17 Q0,-18 4,-17 Q8,-18 12,-16 Q16,-12 12,-8 Q14,-4 12,0 Q14,4 10,7 Q6,9 0,8 Q-6,9 -10,7 Q-14,4 -12,0 Q-14,-4 -12,-8 Z" 
+          fill="white" opacity="0.9"/>
+    
+    <!-- Neural network nodes -->
+    <circle cx="-6" cy="-4" r="1" fill="#667eea"/>
+    <circle cx="0" cy="-5" r="1" fill="#667eea"/>
+    <circle cx="6" cy="-4" r="1" fill="#667eea"/>
+    <circle cx="-4" cy="0" r="1" fill="#764ba2"/>
+    <circle cx="4" cy="0" r="1" fill="#764ba2"/>
+    <circle cx="-3" cy="4" r="1" fill="#667eea"/>
+    <circle cx="3" cy="4" r="1" fill="#667eea"/>
+    
+    <!-- Neural connections -->
+    <g stroke="#8B5CF6" stroke-width="0.5" opacity="0.6">
+      <line x1="-6" y1="-4" x2="0" y2="-5"/>
+      <line x1="0" y1="-5" x2="6" y2="-4"/>
+      <line x1="-6" y1="-4" x2="-4" y2="0"/>
+      <line x1="6" y1="-4" x2="4" y2="0"/>
+      <line x1="-4" y1="0" x2="-3" y2="4"/>
+      <line x1="4" y1="0" x2="3" y2="4"/>
+      <line x1="-4" y1="0" x2="4" y2="0"/>
+    </g>
+  </g>
+  
+  <!-- Ads/Marketing Elements -->
+  <g transform="translate(40,56)">
+    <!-- Megaphone/Speaker -->
+    <path d="M-8,0 L-4,-3 L4,-2 Q6,-2 6,0 Q6,2 4,2 L-4,3 Z" 
+          fill="#f5576c" opacity="0.8"/>
+    <circle cx="7" cy="0" r="1.5" fill="white" opacity="0.9"/>
+    
+    <!-- Target/Bullseye -->
+    <g transform="translate(-14,-2)">
+      <circle cx="0" cy="0" r="4" fill="none" stroke="white" stroke-width="0.8"/>
+      <circle cx="0" cy="0" r="2.5" fill="none" stroke="white" stroke-width="0.5"/>
+      <circle cx="0" cy="0" r="1.2" fill="white"/>
+    </g>
+  </g>
+</svg>
